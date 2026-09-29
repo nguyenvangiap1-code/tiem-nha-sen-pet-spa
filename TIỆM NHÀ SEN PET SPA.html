@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TIỆM NHÀ SEN PET SPA</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:#3d3340;background:#fffaf8;line-height:1.6}
+:root{--pink:#e989a5;--pink2:#f8dce5;--cream:#fff7f2;--dark:#3d3340;--green:#6d9b83}
+nav{position:sticky;top:0;z-index:10;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:16px 7%;box-shadow:0 2px 14px #0000000d}
+.logo{font-weight:800;font-size:21px;color:var(--pink)}
+.logo span{color:var(--dark)}
+nav a{color:var(--dark);text-decoration:none;margin-left:25px;font-weight:600;font-size:14px}
+.hero{padding:75px 7%;display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center;background:linear-gradient(135deg,#fff4f7,#fffaf2)}
+.badge{display:inline-block;background:var(--pink2);padding:7px 14px;border-radius:30px;color:#a64f6c;font-weight:700;font-size:13px;margin-bottom:18px}
+h1{font-size:52px;line-height:1.08;margin-bottom:18px}
+h1 em{color:var(--pink);font-style:normal}
+.hero p{font-size:18px;color:#6d626a;max-width:570px;margin-bottom:28px}
+.btn{display:inline-block;padding:13px 22px;border-radius:30px;text-decoration:none;font-weight:700;margin-right:10px}
+.primary{background:var(--pink);color:#fff}.secondary{border:1px solid #e5c8d1;color:#9b526b;background:#fff}
+.hero-card{background:#fff;border-radius:32px;padding:25px;box-shadow:0 15px 45px #b46d7b22;text-align:center}
+.pet-art{height:330px;border-radius:25px;background:linear-gradient(160deg,#f9dce5,#f7eee8);display:flex;align-items:center;justify-content:center;font-size:145px}
+.hero-card h3{margin-top:16px;font-size:20px}
+section{padding:70px 7%}
+.section-head{text-align:center;margin-bottom:40px}
+.section-head h2{font-size:34px;margin-bottom:8px}
+.section-head p{color:#766b73}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.service{background:#fff;padding:28px 22px;border-radius:22px;box-shadow:0 8px 30px #00000008;border:1px solid #f2e4e7}
+.icon{font-size:38px;margin-bottom:10px}.service h3{margin-bottom:8px}.service p{font-size:14px;color:#756a72}
+.price{color:#c25f7c;font-weight:800;margin-top:13px}
+.about{background:#fff0f4;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.check{margin:13px 0}.check b{color:var(--green);margin-right:8px}
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.price-card{background:#fff;border-radius:24px;padding:28px;box-shadow:0 8px 30px #00000008}
+.price-card h3{color:#a8536d}.big{font-size:30px;font-weight:800;margin:10px 0 15px}
+.price-card ul{list-style:none;color:#6f656c}.price-card li{margin:9px 0}
+.contact{background:#3d3340;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.contact p{color:#ddd1d6;margin:10px 0}
+.form{background:#fff;padding:25px;border-radius:22px}
+input,select,textarea{width:100%;padding:13px;margin-bottom:12px;border:1px solid #eadde1;border-radius:12px;font-family:inherit}
+textarea{height:90px}.form button{border:0;cursor:pointer;width:100%;font-size:16px}
+footer{text-align:center;padding:22px;background:#302831;color:#d9cdd2;font-size:13px}
+@media(max-width:800px){
+ nav{padding:14px 5%}nav a{display:none}
+ .hero,.about,.contact{grid-template-columns:1fr;padding-left:6%;padding-right:6%}
+ h1{font-size:40px}.services,.prices{grid-template-columns:1fr 1fr}
+ section{padding:55px 6%}
+}
+@media(max-width:520px){.services,.prices{grid-template-columns:1fr}.pet-art{height:250px;font-size:110px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">🐾 TIỆM NHÀ SEN <span>PET SPA</span></div>
+  <div>
+    <a href="#dichvu">Dịch vụ</a><a href="#banggia">Bảng giá</a><a href="#gioithieu">Giới thiệu</a><a href="#lienhe">Đặt lịch</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <span class="badge">PET SPA • GROOMING • CARE</span>
+    <h1>Chăm sóc bé cưng<br><em>thật sạch, thật xinh.</em></h1>
+    <p>Dịch vụ spa chó mèo chuyên nghiệp, nhẹ nhàng và an toàn. Từ tắm vệ sinh, cắt tỉa đến chăm sóc tai – mắt và khử mùi.</p>
+    <a class="btn primary" href="#lienhe">Đặt lịch ngay</a>
+    <a class="btn secondary" href="#dichvu">Xem dịch vụ</a>
+  </div>
+  <div class="hero-card">
+    <div class="pet-art">🐶 🐱</div>
+    <h3>“Bé vui – Sen yên tâm”</h3>
+    <p>Không gian sạch sẽ • Nhân viên tận tâm • Quy trình vệ sinh</p>
+  </div>
+</header>
+
+<section id="dichvu">
+ <div class="section-head"><h2>Dịch vụ của chúng tôi</h2><p>Một nơi chăm sóc toàn diện cho những người bạn bốn chân.</p></div>
+ <div class="services">
+  <div class="service"><div class="icon">🛁</div><h3>Tắm & vệ sinh</h3><p>Tắm sạch, sấy khô, làm sạch lông và chăm sóc cơ bản.</p><div class="price">Từ 80.000đ</div></div>
+  <div class="service"><div class="icon">✂️</div><h3>Cắt tỉa lông</h3><p>Tạo kiểu phù hợp với giống, kích thước và nhu cầu của bé.</p><div class="price">Từ 150.000đ</div></div>
+  <div class="service"><div class="icon">👂</div><h3>Chăm sóc tai – mắt</h3><p>Vệ sinh nhẹ nhàng giúp bé luôn sạch sẽ và dễ chịu.</p><div class="price">Từ 40.000đ</div></div>
+  <div class="service"><div class="icon">🌸</div><h3>Khử mùi & dưỡng lông</h3><p>Sử dụng sản phẩm chuyên dụng giúp bé thơm tho và mềm lông.</p><div class="price">Từ 50.000đ</div></div>
+ </div>
+</section>
+
+<section class="about" id="gioithieu">
+ <div><span class="badge">VỀ TIỆM NHÀ SEN</span><h2>Không chỉ là spa,<br>mà là nơi bé được yêu thương.</h2><p>Chúng tôi xây dựng mô hình pet spa thân thiện, sạch sẽ và tiện lợi dành cho khách hàng nuôi chó mèo.</p></div>
+ <div>
+  <div class="check"><b>✓</b> Không gian vệ sinh, thoáng mát</div>
+  <div class="check"><b>✓</b> Quy trình chăm sóc riêng cho từng bé</div>
+  <div class="check"><b>✓</b> Nhân viên nhẹ nhàng, tận tâm</div>
+  <div class="check"><b>✓</b> Sản phẩm chăm sóc phù hợp cho chó và mèo</div>
+ </div>
+</section>
+
+<section id="banggia">
+ <div class="section-head"><h2>Bảng giá tham khảo</h2><p>Giá có thể thay đổi theo kích thước và tình trạng lông của bé.</p></div>
+ <div class="prices">
+  <div class="price-card"><h3>Gói Cơ Bản</h3><div class="big">80K+</div><ul><li>✓ Tắm vệ sinh</li><li>✓ Sấy khô</li><li>✓ Vệ sinh tai</li><li>✓ Khử mùi nhẹ</li></ul></div>
+  <div class="price-card"><h3>Gói Tiêu Chuẩn</h3><div class="big">150K+</div><ul><li>✓ Tất cả gói cơ bản</li><li>✓ Cắt tỉa lông</li><li>✓ Vệ sinh mắt</li><li>✓ Dưỡng lông</li></ul></div>
+  <div class="price-card"><h3>Gói Premium</h3><div class="big">250K+</div><ul><li>✓ Chăm sóc toàn diện</li><li>✓ Tạo kiểu</li><li>✓ Dưỡng lông chuyên sâu</li><li>✓ Nước hoa cho thú cưng</li></ul></div>
+ </div>
+</section>
+
+<section class="contact" id="lienhe">
+ <div><span class="badge">ĐẶT LỊCH</span><h2>Đặt lịch cho bé hôm nay</h2><p>Điền thông tin, chúng tôi sẽ liên hệ để xác nhận lịch hẹn.</p><p>📍 Khu FPT Hòa Xuân, Đà Nẵng</p><p>📞 09xx xxx xxx</p><p>🕘 08:00 – 20:00 hàng ngày</p></div>
+ <form class="form" onsubmit="book(event)">
+  <input id="name" placeholder="Tên khách hàng" required>
+  <input id="phone" placeholder="Số điện thoại" required>
+  <select id="pet"><option>Chó</option><option>Mèo</option></select>
+  <select id="service"><option>Tắm & vệ sinh</option><option>Cắt tỉa lông</option><option>Chăm sóc tai – mắt</option><option>Gói Premium</option></select>
+  <textarea id="note" placeholder="Ghi chú cho bé (nếu có)"></textarea>
+  <button class="btn primary" type="submit">Gửi yêu cầu đặt lịch</button>
+ </form>
+</section>
+<footer>© 2026 TIỆM NHÀ SEN PET SPA • Chăm sóc bằng sự yêu thương 🐾</footer>
+<script>
+function book(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value;
+ alert('Cảm ơn '+name+'! Yêu cầu đặt lịch đã được ghi nhận. Spa sẽ liên hệ xác nhận.');
+ e.target.reset();
+}
+</script>
+</body>
+</html>
